@@ -1,16 +1,14 @@
-import { Component } from "react";
+import Produtos from "./pages/produtos"
 
-class App extends Component{
+const App = () => {
 
-  render(){
 
-    return (
-      <div>
-        <h3>Aula React Vite</h3>
-        <p>Retomada de Conteúdo</p>
-      </div>
-    )
-  }
+  return (
+    <>
+    <h1>Projeto Pizzaria</h1>
+    <Produtos/>
+    </>
+  )
 }
 
 export default App
